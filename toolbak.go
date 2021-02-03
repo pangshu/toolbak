@@ -11,7 +11,7 @@ import (
 	toolNumber "toolbak/Number"
 	toolOs "toolbak/Os"
 	toolRegexp "toolbak/Regexp"
-	toolbaktring "toolbak/String"
+	toolString "toolbak/String"
 	toolUrl "toolbak/Url"
 )
 
@@ -24,7 +24,7 @@ var (
 	File toolFile.File
 	Date toolDate.Date
 	Array toolArray.Array
-	String  toolbaktring.String
+	String  toolString.String
 	Regexp  toolRegexp.Regexp
 	Number  toolNumber.Number
 	Convert toolConvert.Convert
