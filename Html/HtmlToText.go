@@ -3,7 +3,7 @@ package Html
 import (
 	"golang.org/x/net/html"
 	"strings"
-	"toolbak/String"
+	"github.com/pangshu/toolbak/String"
 )
 
 // HtmlToText 将html转换为纯文本.

@@ -3,7 +3,7 @@ package Regexp
 import (
 	"regexp"
 	"strings"
-	"toolbak/Net"
+	"github.com/pangshu/toolbak/Net"
 )
 
 // IsDNSName 是否DNS名称.

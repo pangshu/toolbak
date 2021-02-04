@@ -1,18 +1,18 @@
 package toolbak
 
 import (
-	toolArray "toolbak/Array"
-	toolConvert "toolbak/Convert"
-	toolDate "toolbak/Date"
-	toolFile "toolbak/File"
-	toolHtml "toolbak/Html"
-	toolLog "toolbak/Log"
-	toolNet "toolbak/Net"
-	toolNumber "toolbak/Number"
-	toolOs "toolbak/Os"
-	toolRegexp "toolbak/Regexp"
-	toolString "toolbak/String"
-	toolUrl "toolbak/Url"
+	toolArray "github.com/pangshu/toolbak/Array"
+	toolConvert "github.com/pangshu/toolbak/Convert"
+	toolDate "github.com/pangshu/toolbak/Date"
+	toolFile "github.com/pangshu/toolbak/File"
+	toolHtml "github.com/pangshu/toolbak/Html"
+	toolLog "github.com/pangshu/toolbak/Log"
+	toolNet "github.com/pangshu/toolbak/Net"
+	toolNumber "github.com/pangshu/toolbak/Number"
+	toolOs "github.com/pangshu/toolbak/Os"
+	toolRegexp "github.com/pangshu/toolbak/Regexp"
+	toolString "github.com/pangshu/toolbak/String"
+	toolUrl "github.com/pangshu/toolbak/Url"
 )
 
 var (

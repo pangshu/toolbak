@@ -4,8 +4,8 @@ package Regexp
 //	"regexp"
 //	"strconv"
 //	"strings"
-//	"toolbak/Date"
-//	"toolbak/String"
+//	"github.com/pangshu/toolbak/Date"
+//	"github.com/pangshu/toolbak/String"
 //)
 //
 //// IsCreditNo 检查是否(15或18位)身份证号码,并返回经校验的号码.

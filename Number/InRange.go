@@ -2,7 +2,7 @@ package Number
 
 import (
 	"reflect"
-	"toolbak/Convert"
+	"github.com/pangshu/toolbak/Convert"
 )
 
 // InRange 数值是否在某个范围内,将自动转换类型再比较.

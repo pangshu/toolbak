@@ -1,7 +1,7 @@
 package Number
 
 import (
-	"toolbak/Array"
+	"github.com/pangshu/toolbak/Array"
 )
 
 // IsNaturalRange 是否连续的自然数数组/切片,如[0,1,2,3...],其中不能有间断.

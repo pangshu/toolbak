@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os/user"
 	"testing"
-	"toolbak/Convert"
+	"github.com/pangshu/toolbak/Convert"
 )
 
 // 测试命令: go test -v -run TestChown Os/Global.go Os/Chown.go Os/Chown_test.go

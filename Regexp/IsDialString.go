@@ -2,7 +2,7 @@ package Regexp
 
 import (
 	"net"
-	"toolbak/Net"
+	"github.com/pangshu/toolbak/Net"
 )
 
 // IsDialString 是否网络拨号字符串(形如127.0.0.1:80),用于net.Dial()检查.

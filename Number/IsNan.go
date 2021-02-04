@@ -2,7 +2,7 @@ package Number
 
 import (
 	"math"
-	"toolbak/Convert"
+	"github.com/pangshu/toolbak/Convert"
 )
 
 // IsNan 是否为“非数值”.
