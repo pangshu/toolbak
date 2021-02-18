@@ -1,9 +1,9 @@
 package Array
 
 import (
+	"crypto/md5"
 	"fmt"
 	"reflect"
-	"toolbak/Encrypt"
 )
 
 // ArrayUnique 移除数组中重复的值.
@@ -18,7 +18,7 @@ func (*Array)ArrayUnique(arr interface{}) []interface{} {
 		for i := 0; i < val.Len(); i++ {
 			item = val.Index(i).Interface()
 			str = fmt.Sprintf("%+v", item)
-			key = Encrypt.ToMd5(str)
+			key = fmt.Sprintf("%x", md5.Sum([]byte(str)))
 			if _, ok := mp[key]; !ok {
 				mp[key] = true
 				res = append(res, item)
@@ -28,7 +28,7 @@ func (*Array)ArrayUnique(arr interface{}) []interface{} {
 		for _, k := range val.MapKeys() {
 			item = val.MapIndex(k).Interface()
 			str = fmt.Sprintf("%+v", item)
-			key = Encrypt.ToMd5(str)
+			key = fmt.Sprintf("%x", md5.Sum([]byte(str)))
 			if _, ok := mp[key]; !ok {
 				mp[key] = true
 				res = append(res, item)
