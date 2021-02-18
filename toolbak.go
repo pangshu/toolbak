@@ -10,6 +10,7 @@ import (
 	toolNet "github.com/pangshu/toolbak/Net"
 	toolNumber "github.com/pangshu/toolbak/Number"
 	toolOs "github.com/pangshu/toolbak/Os"
+	toolRand "github.com/pangshu/toolbak/Rand"
 	toolRegexp "github.com/pangshu/toolbak/Regexp"
 	toolString "github.com/pangshu/toolbak/String"
 	toolUrl "github.com/pangshu/toolbak/Url"
@@ -28,4 +29,5 @@ var (
 	Regexp  toolRegexp.Regexp
 	Number  toolNumber.Number
 	Convert toolConvert.Convert
+	Rand toolRand.Rand
 )
