@@ -1,10 +1,10 @@
 package toolbak
 
 import (
-	toolEncrypt "github.com/pangshu/tookbak/Encrypt"
 	toolArray "github.com/pangshu/toolbak/Array"
 	toolConvert "github.com/pangshu/toolbak/Convert"
 	toolDate "github.com/pangshu/toolbak/Date"
+	toolEncrypt "github.com/pangshu/toolbak/Encrypt"
 	toolFile "github.com/pangshu/toolbak/File"
 	toolHtml "github.com/pangshu/toolbak/Html"
 	toolLog "github.com/pangshu/toolbak/Log"
