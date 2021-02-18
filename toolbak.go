@@ -1,6 +1,7 @@
 package toolbak
 
 import (
+	toolEncrypt "github.com/pangshu/tookbak/Encrypt"
 	toolArray "github.com/pangshu/toolbak/Array"
 	toolConvert "github.com/pangshu/toolbak/Convert"
 	toolDate "github.com/pangshu/toolbak/Date"
@@ -30,4 +31,5 @@ var (
 	Number  toolNumber.Number
 	Convert toolConvert.Convert
 	Rand toolRand.Rand
+	Encrypt toolEncrypt.Encrypt
 )
